@@ -13,8 +13,11 @@
             myAddressBook.AddContact(newContact2);
             myAddressBook.AddContact(newContact3);
 
-            myAddressBook.SearchByCountry("USA");
+           
             //myAddressBook.PrintContacts();
+
+
+            myAddressBook.PrintContactCountByCountry();
         }
     }
 }
